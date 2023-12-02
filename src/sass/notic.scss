@@ -1,0 +1,25 @@
+.container {
+  margin: 10%;
+  display: flex;
+  align-items: flex-start; /* 图片和内容垂直居中对齐 */
+}
+
+.image-container {
+  flex: 1; /* 图片容器占据可用空间的一部分 */
+  max-width: 20%; /* 图片容器的最大宽度 */
+}
+
+.content {
+  flex: 1; /* 内容容器占据可用空间的一部分 */
+  padding-left: 20px; /* 添加左侧间距，使内容不紧靠图片 */
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 0; /* 移除标题的默认上外边距 */
+}
+
+p {
+  font-size: 16px;
+  margin-top: 8px; /* 添加文本内容上外边距 */
+}
